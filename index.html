@@ -30,9 +30,14 @@
             padding: 20px;
             border: 2px solid #A9A9A9;
             box-shadow: 5px 5px 10px #666;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%; /* Make the container take full height */
         }
         .socials {
             margin-top: 20px;
+            flex-grow: 1; /* Allow socials to take remaining space */
         }
         .socials a {
             display: block;
@@ -46,9 +51,6 @@
             text-align: center;
             font-weight: bold;
         }
-        .socials a:hover {
-            background-color: #A0A0A0;
-        }
         footer {
             text-align: center;
             margin-top: 20px;
@@ -57,7 +59,7 @@
         }
         .image-container {
             text-align: center;
-            margin: 20px 0;
+            margin-top: 20px;
         }
         .image-container img {
             max-width: 100%;
@@ -74,13 +76,13 @@
 
 <div class="container">
     <h1>Social Links</h1>
-    <div class="image-container">
-        <img src="realabyssus.png" alt="Real Abyssus">
-    </div>
     <div class="socials">
         <a href="https://github.com/kktavoidsec" target="_blank">GitHub: kktavoidsec</a>
         <a href="https://discord.com/app" target="_blank">Discord: voidsec_</a>
         <a href="https://youtube.com/@kaeliosGG" target="_blank">YouTube: kaeliosGG</a>
+    </div>
+    <div class="image-container">
+        <img src="realabyssus.png" alt="Real Abyssus">
     </div>
 </div>
 
