@@ -1,94 +1,109 @@
-<html lang="en" class="focus-outline-visible">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoidSec - Socials</title>
+    <meta name="description" content="Generic Development Industries Enterprises Syndicate Inc.">
+    <title>Sigma Security | Dashboard</title>
     <style>
         body {
-            font-family: 'Tahoma', sans-serif;
-            background-color: #0084D2;
-            color: #000;
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: white;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #B0C4DE;
-            border: 2px solid #A9A9A9;
-            padding: 10px;
+            background-color: #1a1d23;
+            padding: 20px;
             text-align: center;
-            box-shadow: 2px 2px 5px #666;
         }
-        h1 {
-            font-size: 28px;
-            color: #000080;
+        header h1 {
             margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1rem;
         }
         .container {
-            max-width: 600px;
+            max-width: 1000px;
             margin: 20px auto;
-            background-color: #FFFFFF;
             padding: 20px;
-            border: 2px solid #A9A9A9;
-            box-shadow: 5px 5px 10px #666;
+        }
+        .features {
             display: flex;
-            flex-direction: column;
             justify-content: space-between;
-            height: 100%; /* Make the container take full height */
+            flex-wrap: wrap;
         }
-        .socials {
-            margin-top: 20px;
-            flex-grow: 1; /* Allow socials to take remaining space */
+        .feature {
+            background-color: #3a3f47;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            min-width: 280px;
         }
-        .socials a {
-            display: block;
-            padding: 10px;
-            margin: 5px 0;
-            text-decoration: none;
-            color: #000;
-            background-color: #C0C0C0;
-            border: 1px solid #A9A9A9;
-            border-radius: 5px;
-            text-align: center;
-            font-weight: bold;
+        .feature h3 {
+            color: #61dafb;
         }
         footer {
+            background-color: #1a1d23;
+            padding: 10px;
             text-align: center;
-            margin-top: 20px;
-            color: #777;
-            font-size: 12px;
+            font-size: 0.9rem;
         }
-        .image-container {
+        .cta {
             text-align: center;
-            margin-top: 20px;
+            margin: 20px 0;
         }
-        .image-container img {
-            max-width: 100%;
-            height: auto;
+        .cta a {
+            background-color: #61dafb;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+        .cta a:hover {
+            background-color: #21a1f1;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Higuys! My name is VoidSec</h1>
-    <p>Follow me on my socials or black,..</p>
+    <h1>Sigma Security</h1>
+    <p>Developed by Generic Development Industries Enterprises Syndicate Inc.</p>
 </header>
 
 <div class="container">
-    <h1>Social Links</h1>
-    <div class="socials">
-        <a href="https://github.com/kktavoidsec" target="_blank">GitHub: kktavoidsec</a>
-        <a href="https://discord.com/app" target="_blank">Discord: void_sec.</a>
-        <a href="https://youtube.com/@kaeliosGG" target="_blank">YouTube: kaeliosGG</a>
-    </div>
-    <div class="image-container">
-        <img src="realabyssus.png" alt="Real Abyssus">
+    <section>
+        <h2>About Sigma Security</h2>
+        <p>Sigma Security is an advanced Discord bot designed to provide top-level security and moderation to your Discord servers. We're continuously developing new features to make your server safer and easier to manage.</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Moderation Commands!</h3>
+            <p>Handle server moderation with powerful commands for banning, kicking, muting, and managing members efficiently.</p>
+        </div>
+        <div class="feature">
+            <h3>In Development!</h3>
+            <p>We're always working on exciting new features. Stay tuned for even more powerful tools in the future!</p>
+        </div>
+        <div class="feature">
+            <h3>Synced Bans Coming Soon!</h3>
+            <p>Ban bad actors across multiple servers at once with our upcoming synced ban feature. One ban, everywhere!</p>
+        </div>
+    </section>
+
+    <div class="cta">
+        <a href="https://discord.com/oauth2/authorize?client_id=1267505997614809164&amp;permissions=8&amp;integration_type=0&amp;scope=bot" target="_blank">Invite Sigma Security to Your Server</a>
     </div>
 </div>
 
 <footer>
-    <p>Freedom of Speech</p>
+    <p>© 2024 Generic Development Industries Enterprises Syndicate Inc. All rights reserved.</p>
 </footer>
 
-</body>
-</html>
+
+</body></html>
